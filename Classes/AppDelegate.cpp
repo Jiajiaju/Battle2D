@@ -1,5 +1,5 @@
 #include "AppDelegate.h"
-#include "BattleEngine.hpp"
+#include "GameManager.hpp"
 
 // #define USE_AUDIO_ENGINE 1
 // #define USE_SIMPLE_AUDIO_ENGINE 1
@@ -97,7 +97,8 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
     register_all_packages();
     
-    BattleEngine::getInstance()->enterBattle();
+    GameManagerInstance->init();
+    GameManagerInstance->battleEngine->enterBattle();
 
     return true;
 }

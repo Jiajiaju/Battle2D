@@ -26,6 +26,4 @@ public:
     void enterBattle();
 };
 
-#define BattleEngineInstance (BattleEngine::getInstance())
-
 #endif /* BattleEngine_hpp */

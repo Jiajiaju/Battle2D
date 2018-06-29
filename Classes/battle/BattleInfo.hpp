@@ -18,9 +18,9 @@ public:
     int battleWidth = 0;
     int battleHeight = 0;
     
+    int animationFPS = 24;
+    
     void init();
 };
-
-#define BattleInfoInstance (BattleInfo::getInstance())
 
 #endif /* BattleInfo_hpp */

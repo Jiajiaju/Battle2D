@@ -7,19 +7,19 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 6,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 72,
 				"EndFrame": 81,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 7,
 				"EndFrame": 17,
-				"EventFrame": 12,
+				"EventFrame": 12
 			}
 		]
 	},
@@ -31,19 +31,19 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 7,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 115,
 				"EndFrame": 123,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 8,
 				"EndFrame": 15,
-				"EventFrame": 11,
+				"EventFrame": 11
 			}
 		]
 	},
@@ -55,19 +55,19 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 5,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 50,
 				"EndFrame": 55,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 6,
 				"EndFrame": 13,
-				"EventFrame": 10,
+				"EventFrame": 10
 			}
 		]
 	},
@@ -79,19 +79,19 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 10,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 70,
 				"EndFrame": 76,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 11,
 				"EndFrame": 26,
-				"EventFrame": 19,
+				"EventFrame": 19
 			}
 		]
 	},
@@ -103,7 +103,7 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 5,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
@@ -115,7 +115,7 @@
 				"Name": "attack",
 				"StartFrame": 6,
 				"EndFrame": 17,
-				"EventFrame": 11,
+				"EventFrame": 11
 			}
 		]
 	},
@@ -127,19 +127,19 @@
 				"Name": "walk",
 				"StartFrame": 0,
 				"EndFrame": 6,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 103,
 				"EndFrame": 114,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 7,
 				"EndFrame": 15,
-				"EventFrame": 11,
+				"EventFrame": 11
 			}
 		]
 	},
@@ -151,19 +151,19 @@
 				"Name": "walk",
 				"StartFrame": 12,
 				"EndFrame": 16,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "dead",
 				"StartFrame": 51,
 				"EndFrame": 56,
-				"EventFrame": -1,
+				"EventFrame": -1
 			},
 			{
 				"Name": "attack",
 				"StartFrame": 17,
 				"EndFrame": 25,
-				"EventFrame": 22,
+				"EventFrame": 22
 			}
 		]
 	}

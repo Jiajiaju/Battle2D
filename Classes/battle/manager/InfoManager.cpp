@@ -35,6 +35,7 @@ void InfoManager::init(){
         characterAnimationInfo[info.name] = info;
     }
     
+    /*
     for (auto iter = characterAnimationInfo.begin(); iter != characterAnimationInfo.end(); ++iter){
         CCLOG("\n%s, %s", iter->first.c_str(), iter->second.name.c_str());
         for (auto iteriter = iter->second.animationFrame.begin(); iteriter != iter->second.animationFrame.end(); ++iteriter){
@@ -44,4 +45,7 @@ void InfoManager::init(){
             }
         }
     }
+    */
+    
+    
 }

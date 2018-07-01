@@ -10,5 +10,5 @@
 void BattleInfo::init(){
     this->battleWidth = 1920;
     this->battleHeight = 1080;
-    this->animationFPS = 24;
+    this->animationFPS = 12;
 }

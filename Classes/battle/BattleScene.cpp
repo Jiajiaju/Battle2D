@@ -37,3 +37,7 @@ bool BattleScene::init(){
     
     return true;
 }
+
+void BattleScene::tick(float dt){
+    
+}

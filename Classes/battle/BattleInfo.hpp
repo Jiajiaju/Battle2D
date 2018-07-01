@@ -18,7 +18,7 @@ public:
     int battleWidth = 0;
     int battleHeight = 0;
     
-    int animationFPS = 24;
+    int animationFPS = 0;
     
     void init();
 };

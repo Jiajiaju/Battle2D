@@ -22,6 +22,8 @@ public:
     static BattleScene* create();
     
     virtual bool init();
+    
+    void tick(float dt);
 };
 
 #endif /* BattleScene_hpp */

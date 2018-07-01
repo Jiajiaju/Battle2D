@@ -27,6 +27,7 @@ Puppet::Puppet(const CharacterAnimationInfo& info):_info(info){
     _elasped = 0.0;
     _currentAniamtion = "walk";
     _frameNumber = _info.animationFrame[_currentAniamtion][0];
+    _animationTimer = 1 / static_cast<float>(GameManagerInstance->battleInfo->animationFPS);
 }
 
 bool Puppet::init(){
@@ -60,15 +61,23 @@ void Puppet::tick(float dt){
         }
         this->setSpriteFrame(_getSpriteFrameName());
     }
+//    if (_animationTimer <= 0){
+//        _animationTimer += 1 / static_cast<float>(GameManagerInstance->battleInfo->animationFPS);
+//        ++_frameNumber;
+//        if (_frameNumber > _info.animationFrame[_currentAniamtion][1] && _isLoop){
+//            _frameNumber = _info.animationFrame[_currentAniamtion][0];
+//        }
+//        this->setSpriteFrame(_getSpriteFrameName());
+//    }
 }
 
 std::string Puppet::_getSpriteFrameName(){
     int frameNumber = _frameNumber;
     std::string spriteName = _info.name + "_";
-    while (frameNumber < 10000){
-        frameNumber *= 10;
-        spriteName += "0";
+    std::string frameString = std::to_string(frameNumber);
+    while (frameString.size() < 5){
+        frameString = std::to_string(0) + frameString;
     }
-    spriteName = spriteName + std::to_string(_frameNumber) + ".png";
+    spriteName = spriteName + frameString + ".png";
     return spriteName;
 }

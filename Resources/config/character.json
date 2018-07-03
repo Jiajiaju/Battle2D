@@ -1,0 +1,106 @@
+// comment
+// ID: type=int comment=ID
+// Name: type=string comment=名字
+// Radius: type=int comment=碰撞半径
+// WalkSpeed: type=int comment=速度
+// HP: type=int comment=HP
+// MP: type=int comment=MP
+// AD: type=int comment=物理攻击力
+// AP: type=int comment=魔法攻击力
+// ARM: type=int comment=物理防御
+// MR: type=int comment=魔法防御
+// Skills: type=list comment=技能
+// comment
+[
+	{
+		"ID": 1,
+		"Name": "BeastMaster",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "1,2,3,4,5"
+	},
+	{
+		"ID": 2,
+		"Name": "Crabman",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "6,7,8,9,10,11"
+	},
+	{
+		"ID": 3,
+		"Name": "Hammerhold",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "12,13,14,15,16"
+	},
+	{
+		"ID": 4,
+		"Name": "Mage",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "17,18,19,20,21,22"
+	},
+	{
+		"ID": 5,
+		"Name": "Mirage",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "23,24,25,26,27,28"
+	},
+	{
+		"ID": 6,
+		"Name": "Pirate",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "29,30,31,32,33,34"
+	},
+	{
+		"ID": 7,
+		"Name": "Priest",
+		"Radius": 20,
+		"WalkSpeed": 200,
+		"HP": 100,
+		"MP": 100,
+		"AD": 10,
+		"AP": 10,
+		"ARM": 10,
+		"MR": 10,
+		"Skills": "35,36,37,38,39"
+	}
+]

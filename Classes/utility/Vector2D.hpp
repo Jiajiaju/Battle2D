@@ -23,6 +23,12 @@ public:
     Vector2D(const Vector2D& vector2D):x(vector2D.x), y(vector2D.y) {}
     ~Vector2D(){}
     
+    Vector2D& operator=(const Vector2D& vector2D){
+        x = vector2D.x;
+        y = vector2D.y;
+        return *this;
+    }
+    
     inline void zero(){
         x = 0.0;
         y = 0.0;

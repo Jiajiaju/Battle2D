@@ -8,4 +8,5 @@
 #include "BattleEntity.hpp"
 
 void BattleEntity::tick(float dt){
+    
 }
